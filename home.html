@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial | DesignMediaX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons-2.0.9/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</head>
+<body id="home">
+
+    <div class="scroll-up-btn">
+        <i class="bx bx-up-arrow-alt bx-sm"></i>
+    </div>
+    <div class="showcase">
+        <!-- navbar top section -->
+
+        <div class="navbar-top">
+            <ul class="left">
+                <li><a href="#"></a></li>
+                <li><a href="#"><i class=""></i> </a></li>
+                <li><a href="#"><i class=""></i> </a></li>
+                <li><a href="#"><i class=""></i> </a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="#"><i class=""></i></a></li>
+                <li><a href="#"><i class=""></i></a></li>
+                <li><a href="#"><i class=""></i></a></li>
+                <li><a href="#"><i class=""></i></a></li>
+            </ul>
+        </div>
+        
+
+        <!-- navbar bottom section -->
+        
+       <div class="navbar-bottom">
+            <a href="#home" class="brand-left">BlackRock</a>
+            <ul class="menu-right">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Coineage-main/html/storyLineOptions.html">Stories</a></li>
+                <li><a href="#portfolio">Languages</a></li>
+                <li><a href="#teams"></a></li>
+                <li><a href="#blog"></a></li>
+                <li><a href="#contact"></a></li>
+                <li><a href="#"><i ></i></a></li>
+            </ul>
+            <div class="search-form">
+                <input type="search" name="search-box" id="search-box" placeholder="search here...">
+                <label for="search-box" class="bx bx-search bx-sm"></label>
+            </div>
+       </div>
+       <div class="navbar-bottom">
+        <a href="#home" class="brand-left">BlackRock</a>
+        <ul class="menu-right">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Coineage-main/html/storyLineOptions.html">Stories</a></li>
+            <li class="dropdown">
+                <div id="google_translate_element"><a href="#" id="languagesDropdown">Languages</a></div>
+                <ul class="dropdown-menu" id="languagesMenu">
+                    <li><a href="#" onclick="translatePage('hi')">Hindi</a></li>
+                    <li><a href="#" onclick="translatePage('en')">English</a></li>
+                    <li><a href="#" onclick="translatePage('pa')">Punjabi</a></li>
+                    <li><a href="#" onclick="translatePage('te')">Telugu</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="#teams"></a></li>
+            <li><a href="#blog"></a></li>
+            <li><a href="#contact"></a></li>
+            <li><a href="#"><i ></i></a></li>
+        </ul>
+        <div class="search-form">
+            <input type="search" name="search-box" id="search-box" placeholder="search here...">
+            <label for="search-box" class="bx bx-search bx-sm"></label>
+        </div>
+    </div>
+
+       <!-- Showcase content Section -->
+       <div class="showcase-content">
+           <h1 style="font-family:fantasy"> <br>Lets start by analyzing your skills</span></h1>
+           <a ></a>
+           <a href="quiz_main/index_quiz.html" class="btn btn-right">Start </a>
+           <a href="myavatar/index.html" class="btn btn-right">Learn from scratch </a>
+       </div>
+    </div>
+    <script>
+        function translatePage(languageCode) {
+            var googleTranslateScript = document.createElement('script');
+            googleTranslateScript.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+            document.head.appendChild(googleTranslateScript);
+    
+            googleTranslateElementInit = function() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en',  // Original page language
+                    includedLanguages: languageCode,  // Target language
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'google_translate_element');
+            };
+        }
+    </script>
+    
+</body>
+</html>
+    
